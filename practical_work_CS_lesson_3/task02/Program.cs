@@ -19,6 +19,6 @@ int z2 = Prompt("Введите Z2=> ");
 int a = x1 - x2;
 int b = y1 - y2;
 int c = z1 - z2;
-double l = Math.Sqrt(a*a+b*b+c*c);
+double l = Math.Sqrt(a * a + b * b + c * c);
 
-Console.WriteLine("Расстояние между двумя точками в 3D-пространстве: " +Math.Round(l, 3));
+Console.WriteLine("Расстояние между двумя точками в 3D-пространстве: " + Math.Round(l, 3));
